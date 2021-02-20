@@ -1,0 +1,14 @@
+.CreateProperty {
+	margin-top: 50px;
+	textarea {
+		resize: none;
+		width: 100%;
+		height: 150px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+	}
+	div[class^="col-"] {
+		margin-top: 20px;
+	}
+}

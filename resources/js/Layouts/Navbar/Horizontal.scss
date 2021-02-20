@@ -1,0 +1,21 @@
+.Horizontal {
+	z-index: 2;
+	width: 100%;
+	.bg-light {
+		padding-bottom: 15px;
+		background: rgba(255, 255, 255, 0.5) !important;
+		box-shadow: 0 1px 5px #a3a3a3;
+	}
+	.nav-item {
+		opacity: 1;
+		font-weight: 600;
+		font-size: 20px;
+		margin: 0 50px 0 50px;
+	}
+	.nav-link {
+		color: black !important;
+	}
+	.nav-link:hover {
+		color: #fc8816 !important;
+	}
+}

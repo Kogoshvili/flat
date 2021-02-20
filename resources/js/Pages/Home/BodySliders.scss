@@ -1,0 +1,11 @@
+@media all and (min-width: 700px) {
+	.BodySliders {
+		margin: 0 80px 0 80px;
+	}
+}
+
+@media not all and (min-width: 700px) {
+	.BodySliders {
+		margin: 0 20px 0 20px;
+	}
+}

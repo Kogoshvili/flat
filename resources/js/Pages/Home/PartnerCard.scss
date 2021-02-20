@@ -1,0 +1,21 @@
+.PartnerCard {
+	padding: 10px 0 10px 0px;
+	text-align: center;
+	.brand {
+		img {
+			height: 100px;
+			margin: 0 auto;
+		}
+		p {
+			margin-bottom: 5px;
+		}
+	}
+	a {
+		color: inherit;
+	}
+	.info {
+		a {
+			font-size: 13px;
+		}
+	}
+}

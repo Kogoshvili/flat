@@ -1,0 +1,70 @@
+.Jumbotron {
+	@media all and(min-width: 500px) {
+		.slide2 {
+			height: 100vh;
+		}
+	}
+	@media not all and (min-width: 500px) {
+		.slide2 {
+			height: 85vh;
+		}
+	}
+	.slide2 {
+		background-position: center center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position: relative;
+	}
+}
+.propertyTopSlider {
+	position: relative;
+	z-index: 0;
+	margin-bottom: 100px;
+}
+@media all and(min-width: 500px) {
+	.JumbotronModal {
+		left: 7%;
+		top: 25%;
+		width: 350px;
+		background: rgba(255, 255, 255, 1);
+	}
+}
+@media not all and (min-width: 500px) {
+	.JumbotronModal {
+		left: 2.5%;
+		width: 95%;
+		bottom: 20%;
+		background: rgba(255, 255, 255, 1);
+		text-align: center;
+	}
+}
+
+.JumbotronModal {
+	box-shadow: 0 2px 5px #a3a3a3;
+	position: absolute;
+	z-index: 1;
+	border-radius: 10px;
+	height: 210px;
+	padding: 10px 10px 10px 10px;
+	h3 {
+		color: #83ae3e;
+	}
+	hr {
+		margin-top: 15px;
+		margin-bottom: 7px;
+	}
+	.ModalBottom {
+		h5 {
+			color: #83ae3e;
+			float: left;
+		}
+		button {
+			margin-right: 10px;
+			font-size: 15px;
+			float: right;
+		}
+	}
+}

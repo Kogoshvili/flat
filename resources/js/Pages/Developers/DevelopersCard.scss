@@ -1,0 +1,21 @@
+.DevelopersCard {
+	margin-top: 20px;
+	padding: 10px 0 10px 10px;
+	border: 1px solid black;
+	img {
+		height: 100px;
+	}
+	.media-body {
+		.buttons {
+			margin-top: 10px;
+		}
+		h5 {
+			font-weight: 600;
+		}
+		.btn {
+			font-weight: 600;
+			margin-right: 20px;
+		}
+		text-align: left;
+	}
+}

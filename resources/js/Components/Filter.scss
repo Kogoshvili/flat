@@ -1,0 +1,213 @@
+.filter-body {
+	border-radius: 10px;
+	padding: 20px 10px 40px 10px;
+	background: #fff;
+	div[class^="col-"] {
+		margin-top: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.filter-main {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+
+	.category,
+	.contract,
+	.city {
+		width: 150px;
+	}
+	.district,
+	.street {
+		width: 200px;
+	}
+	.area-body,
+	.price-body {
+		flex: 1 1 10%;
+	}
+	@media (max-width: 1350px) {
+		.category,
+		.contract,
+		.city,
+		.district,
+		.street {
+			flex: 1 1 20%;
+		}
+	}
+	@media (max-width: 1000px) {
+		.category,
+		.contract,
+		.city {
+			flex: 1 1 33.3333%;
+		}
+		.district,
+		.street {
+			flex: 1 1 50%;
+		}
+	}
+	@media (max-width: 550px) {
+		.category,
+		.contract,
+		.city,
+		.district,
+		.street,
+		.area-body,
+		.price-body {
+			flex: 1 1 100%;
+		}
+	}
+
+	.filter-btn {
+		margin-top: 30px;
+		text-align: center;
+		.btn {
+			margin-right: 10px;
+		}
+	}
+	.showIns {
+		position: absolute;
+		z-index: 1;
+		background: #fff;
+		box-shadow: 0px 0px 2px;
+		width: 300px;
+		padding: 5px 0px 5px 10px;
+		input {
+			display: inline-flex;
+		}
+		input:active,
+		input:focus {
+			border: 1px solid #fc8816;
+		}
+		input[type=text] {
+			width: 100px;
+		}
+		button {
+			display: inline-flex;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+	}
+	.filter-additional {
+		.filter-additional-top {
+			display: flex;
+			flex-wrap: wrap;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			flex-wrap: wrap;
+
+			.status,
+			.condition,
+			.heating,
+			.hotWater,
+			.storeroom,
+			.parking {
+				margin-top: 10px;
+			}
+			.status,
+			.condition,
+			.heating,
+			.hotWater,
+			.storeroom,
+			.parking {
+				flex: 1 1 16%;
+			}
+			@media (max-width: 1000px) {
+				.status,
+				.condition,
+				.heating,
+				.hotWater,
+				.storeroom,
+				.parking {
+					flex: 1 1 30%;
+				}
+			}
+			@media (max-width: 720px) {
+				.status,
+				.condition,
+				.heating,
+				.hotWater,
+				.storeroom,
+				.parking {
+					flex: 1 1 50%;
+				}
+			}
+			@media (max-width: 500px) {
+				.status,
+				.condition,
+				.heating,
+				.hotWater,
+				.storeroom,
+				.parking {
+					flex: 1 1 100%;
+				}
+			}
+		}
+		.rooms {
+			display: inline-flex;
+			margin-top: 10px;
+			div {
+				display: inline-block;
+				label {
+					text-align: center;
+					display: block;
+				}
+				input {
+					width: 100px;
+					display: inline-block;
+				}
+				margin-right: 10px;
+			}
+		}
+
+		.Floors {
+			display: inline-flex;
+			.floor {
+				margin-top: 10px;
+				display: inline-block;
+				label {
+					display: block;
+					text-align: center;
+				}
+				input {
+					width: 50px;
+
+					display: inline-block;
+				}
+				margin-right: 10px;
+			}
+
+			.floors {
+				margin-top: 10px;
+				display: inline-block;
+				label {
+					display: block;
+					text-align: center;
+				}
+				input {
+					width: 50px;
+
+					display: inline-block;
+				}
+			}
+		}
+		@media (max-width: 500px) {
+			flex: 1 1 50%;
+		}
+		.balcony {
+			text-align: center;
+			margin-top: 10px;
+			div {
+				display: inline-block;
+				input {
+					margin: 0 10px 0 10px;
+				}
+			}
+		}
+	}
+	.addFilter {
+		cursor: pointer;
+	}
+}

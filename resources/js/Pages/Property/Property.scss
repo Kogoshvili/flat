@@ -1,0 +1,135 @@
+.Property {
+	.property-top {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.card-element {
+		.back {
+			width: 250px;
+		}
+	}
+	.add-info {
+		.border-bottom {
+			margin-left: 15px;
+		}
+		li {
+			margin-top: 15px;
+		}
+	}
+
+	.border-bottom {
+		padding: 5px 0 5px 0;
+		font-weight: 600;
+	}
+
+	.property-id {
+		margin-right: 35px;
+		float: right;
+		color: lighten(#7a7a7a, 10%);
+	}
+	.single-price {
+		text-align: right;
+		h3 {
+			margin: 1px 0 5px 0;
+			font-weight: 600;
+			font-size: 1.6rem;
+		}
+		.prim-cur {
+			cursor: pointer;
+			i:hover {
+				color: darken(#fc8816, 10%);
+				transform: scale(1.1);
+			}
+		}
+		span {
+			margin: 0 5px 0 5px;
+			display: inline;
+			font-weight: 600;
+			font-size: 1.2rem;
+		}
+		i {
+			font-size: 15px;
+		}
+	}
+	.currencies {
+		position: absolute;
+		z-index: 1;
+		top: 50px;
+		right: 15px;
+		background: #fff;
+		border: 1px solid black;
+		box-shadow: 1px 1px 5px;
+		padding: 5px 13px 5px 13px;
+	}
+	.right-column {
+		margin-top: 10px;
+	}
+	.Property-main-agent {
+		background-color: #fafafa;
+		//border: 1px solid black;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px 2px rgba(200, 200, 200, 1);
+		//box-shadow: 2px 2px 5px rgba(200, 200, 200, 1);
+		margin: 10px 0 10px 0;
+		///padding: 7px 0 7px;
+		padding-top: 10px;
+
+		text-align: center;
+		height: 90px;
+		img {
+			margin-left: 20px;
+			border-radius: 50%;
+			height: 70px;
+			width: 70px;
+		}
+		.media-body {
+			h3 {
+				font-size: 1.4rem;
+				font-weight: 600;
+			}
+			h4 {
+				margin: 8px 0 8px 0;
+				font-weight: 600;
+				font-size: 1.45rem;
+			}
+			h5 {
+				font-weight: 600;
+				font-size: 1.4rem;
+			}
+			margin-left: 5px;
+		}
+	}
+	.Property-main-info {
+		background-color: #fafafa;
+		//border: 1px solid black;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px 2px rgba(200, 200, 200, 1);
+		margin: 10px 0 10px 0;
+		font-size: 13px;
+		padding: 6px 0 5px;
+		font-weight: 600;
+		line-height: 1.87;
+		min-height: 90px;
+
+		.Property-main-info-status {
+		}
+		.Property-main-info-rooms {
+		}
+		.Property-main-info-price {
+			text-align: right;
+			#area {
+				color: #83ae3e;
+				font-size: 18px;
+				line-height: 1;
+			}
+			#price {
+				color: #fc8816;
+				font-size: 18px;
+				line-height: 1;
+			}
+			#priceper {
+				line-height: 1;
+			}
+		}
+	}
+}

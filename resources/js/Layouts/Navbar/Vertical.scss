@@ -1,0 +1,63 @@
+.Vertical {
+	background: #fff;
+	width: 250px;
+	height: 100vh;
+	.agent {
+		padding-left: 85px;
+		img {
+			height: 70px;
+			border-radius: 50%;
+		}
+	}
+	.verLogo {
+		font-weight: 600;
+		font-size: 20px;
+
+		margin: 15px 0 20px 150px;
+		color: black;
+	}
+	.userImg {
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+	}
+	.user {
+		text-align: center;
+	}
+	ul {
+		padding-top: 10px;
+		padding-left: 0;
+		list-style-type: none;
+
+		li {
+			padding: 15px 0 15px;
+			font-size: 17px;
+			padding-left: 20px;
+			//border-bottom: 1px solid #ccc;
+		}
+		a {
+			color: #46474a;
+		}
+		a:hover,
+		a:focus {
+			color: #fff;
+		}
+		li:hover {
+			background-color: #689029;
+		}
+		.active {
+			color: #fff;
+			li {
+				background-color: #689029;
+			}
+		}
+	}
+	button {
+		margin-left: 15px;
+		margin-top: 50px;
+		font-size: 17px;
+	}
+	.ver-additionals {
+		margin: 50px 0 0 20px;
+	}
+}
